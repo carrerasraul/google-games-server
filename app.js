@@ -12,6 +12,7 @@ app.get('/games', (req, res) => {
     let results = games
         .filter(games =>
             games
+                .App
             );
 
     res.json(results);
